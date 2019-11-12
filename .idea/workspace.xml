@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a5d205-b296-4adc-ac22-61989e42fc71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ceej/controller/DataBaseUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ceej/controller/DataBaseUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ceej/controller/DataBaseUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ceej/controller/DataBaseUtilityTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DataBaseUtilityTest.add_article">
+  <component name="RunManager" selected="JUnit.DataBaseUtilityTest.is_pwd_correct">
     <configuration name="DataBaseUtilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing-Timeline" />
       <extension name="coverage">
@@ -126,22 +124,6 @@
       <option name="PACKAGE_NAME" value="com.ceej.controller" />
       <option name="MAIN_CLASS_NAME" value="com.ceej.controller.DataBaseUtilityTest" />
       <option name="METHOD_NAME" value="add_article" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataBaseUtilityTest.add_user" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testing-Timeline" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ceej.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ceej.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.ceej.controller.DataBaseUtilityTest" />
-      <option name="METHOD_NAME" value="add_user" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,6 +156,22 @@
       <option name="PACKAGE_NAME" value="com.ceej.controller" />
       <option name="MAIN_CLASS_NAME" value="com.ceej.controller.DataBaseUtilityTest" />
       <option name="METHOD_NAME" value="get_image_url_of_article" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBaseUtilityTest.is_pwd_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Timeline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceej.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceej.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ceej.controller.DataBaseUtilityTest" />
+      <option name="METHOD_NAME" value="is_pwd_correct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -253,20 +251,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DataBaseUtilityTest.add_user" />
       <item itemvalue="JUnit.DataBaseUtilityTest.delete_article" />
       <item itemvalue="JUnit.DataBaseUtilityTest.get_image_url_of_article" />
       <item itemvalue="Tomcat Server.localhost" />
       <item itemvalue="JUnit.DataBaseUtilityTest" />
       <item itemvalue="JUnit.DataBaseUtilityTest.add_article" />
+      <item itemvalue="JUnit.DataBaseUtilityTest.is_pwd_correct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataBaseUtilityTest.is_pwd_correct" />
         <item itemvalue="JUnit.DataBaseUtilityTest.add_article" />
         <item itemvalue="JUnit.DataBaseUtilityTest" />
         <item itemvalue="JUnit.DataBaseUtilityTest.get_image_url_of_article" />
         <item itemvalue="JUnit.DataBaseUtilityTest.delete_article" />
-        <item itemvalue="JUnit.DataBaseUtilityTest.add_user" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +286,7 @@
       <workItem from="1572501508233" duration="5860000" />
       <workItem from="1572508586628" duration="2986000" />
       <workItem from="1573449840938" duration="17207000" />
-      <workItem from="1573524232732" duration="3178000" />
+      <workItem from="1573524232732" duration="5950000" />
     </task>
     <task id="LOCAL-00001" summary="change the environment">
       <created>1573450730941</created>
@@ -332,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573488682771</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix: 所有测试通过 补充了DataBaseUtility一些条件中的空指针判断">
+      <created>1573527565611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573527565611</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +387,7 @@
     <MESSAGE value="check the add user function, has 1 test fail" />
     <MESSAGE value="还剩最后两个函数要测" />
     <MESSAGE value="全部函数测试完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="全部函数测试完成" />
+    <MESSAGE value="fix: 所有测试通过 补充了DataBaseUtility一些条件中的空指针判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 所有测试通过 补充了DataBaseUtility一些条件中的空指针判断" />
   </component>
 </project>

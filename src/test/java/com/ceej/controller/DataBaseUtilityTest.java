@@ -56,7 +56,7 @@ class DataBaseUtilityTest {
     }
 
     @Test
-    void is_user_exist() throws Exception {
+    void is_user_1_exist() throws Exception {
         String userId = "1";
 
         when(connection.prepareStatement(anyString())).thenReturn(statement);
